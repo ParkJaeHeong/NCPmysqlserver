@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "Nuxt.js project",
   "author": "jihyeoh",
+  "config" : {
+  "nuxt" : {
+    "host" :  "0.0.0.0",
+    "port" : "3000"
+    }
+  },
   "private": true,
   "scripts": {
     "dev": "nuxt",
